@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		
+		<title>Dashboard</title>
+		<<link rel="icon" href="images/favicon-32x32.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="styles.css">
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+		
+	</head>
+	<body>
+		<div class="dashboard">
+			<div class="board1">
+			<h2 id="head">Social Media Dashboard</h2>
+			<p>Total Folllowers: 23,004</p>
+			<hr>
+			<p id="d-mode">Dark Mode</p>
+			<button type="button" value="OFF" class="tglr">		
+			<i class="fas fa-toggle-on fa-2x" ></i>
+			</button>	
+			</div>
+			
+		</div>
+		<div class="container social-medias">
+			<div class="row">
+				<div class="col-lg col-md top facebook">
+					<p class="nathan"><img src="images/icon-facebook.svg" alt="">@nathanf</p>
+					<h1>1987</h1>
+					<p class="followers">FOLLOWERS</p>
+					<p class="percent-up"><img src="images/icon-up.svg" alt="">12 Today</p>
+				</div>
+				<div class="col-lg col-md top twitter">
+					
+					<p class="nathan"><img src="images/icon-twitter.svg" alt="">@nathanf</p>
+					<h1>1044</h1>
+					<p class="followers">FOLLOWERS</p>
+					<p class="percent-up"><img src="images/icon-up.svg" alt="">99 Today</p>
+				</div>
+				<div class="col-lg col-md top insta">
+					<div class="inner">
+						<p class="nathan"><img src="images/icon-instagram.svg" alt="">@nathanf</p>
+						<h1>11k</h1>
+						<p class="followers">FOLLOWERS</p>
+						<p class="percent-up"><img src="images/icon-up.svg" alt="">1099 Today</p>
+					</div>
+				</div>
+				<div class="col-lg col-md top youtube">
+					<p class="nathan"><img src="images/icon-youtube.svg" alt="">@nathanf</p>
+					<h1>8239</h1>
+					<p class="followers">SUBSCRIBERS</p>
+					<p class="percent-down"><img src="images/icon-down.svg" alt="">144 Today</p>
+				</div>
+			</div>
+		</div>
+		<div class="overview container">
+			<h2>Overview-Today</h2>
+			<div class="row">
+				<div class="col-lg col-md  bottom">
+					<h6>Page Views<img src="images/icon-facebook.svg" alt=""></h6>
+					<h2>87<p class="percent-up"><img src="images/icon-up.svg" alt="">3%</p></h2>
+					
+					
+				</div>
+				<div class="col-lg col-md  bottom">
+					<h6>Likes<img src="images/icon-facebook.svg" alt=""></h6>
+					<h2>52<p class="percent-down"><img src="images/icon-down.svg" alt="">2%</p></h2>
+					
+				</div>
+				<div class="col-lg col-md  bottom">
+					<h6>Likes<img src="images/icon-instagram.svg" alt=""></h6>
+					<h2>5462<p class="percent-up"><img src="images/icon-up.svg" alt="">2257%</p></h2>
+					
+				</div>
+				<div class="col-lg col-md  bottom">
+					<h6>Profile Views<img src="images/icon-instagram.svg" alt=""></h6>
+					<h2>52k<p class="percent-up"><img src="images/icon-up.svg" alt="">1375%</p></h2>
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg col-md  bottom ">
+					<h6>Retweets<img src="images/icon-twitter.svg" alt=""></h6>
+					<h2> 117<p class="percent-up"><img src="images/icon-up.svg" alt=""> 303%</p></h2>
+					
+				</div>
+				<div class="col-lg col-md  bottom">
+					<h6>Likes<img src="images/icon-twitter.svg" alt=""></h6>
+					<h2>507<p class="percent-up"><img src="images/icon-up.svg" alt=""> 553%</p></h2>
+					
+				</div>
+				<div class="col-lg col-md  bottom">
+					<h6>Likes<img src="images/icon-youtube.svg" alt=""></h6>
+					<h2> 107<p class="percent-down"><img src="images/icon-down.svg" alt="">19%</p></h2>
+					
+				</div>
+				<div class="col-lg col-md  bottom">
+					<h6>Total Views<img src="images/icon-youtube.svg" alt=""></h6>
+					<h2> 1407<p class="percent-down"><img src="images/icon-down.svg" alt=""> 12%</p></h2>
+					
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Challenge by Frontend Mentor. Coded by Ranjan Kumar. </p>
+		</div>
+		
+		
+		<script src="https://kit.fontawesome.com/695035236c.js" crossorigin="anonymous"></script>
+		<script src="index.js"></script>
+	</body>
+</html>
